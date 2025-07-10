@@ -4,34 +4,36 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 py-20">
+    <section className="min-h-screen flex items-center justify-center px-4 py-20 bg-gray-900">
       <div className="max-w-4xl mx-auto text-center">
         <div className="relative mb-8">
           <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 p-1 animate-fade-in">
-            <div className="w-full h-full rounded-full bg-white flex items-center justify-center">
-              <div className="w-40 h-40 rounded-full bg-gradient-to-r from-blue-100 to-purple-100 flex items-center justify-center text-6xl font-bold text-gray-700">
-                PR
-              </div>
+            <div className="w-full h-full rounded-full bg-white flex items-center justify-center overflow-hidden">
+              <img 
+                src="/lovable-uploads/4c648c4f-9f41-4e7d-a8b3-21e57f61ac35.png" 
+                alt="Praveen Reddaboina"
+                className="w-full h-full object-cover rounded-full"
+              />
             </div>
           </div>
         </div>
         
-        <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent mb-4 animate-fade-in">
+        <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent mb-4 animate-fade-in">
           PRAVEEN REDDABOINA
         </h1>
         
-        <p className="text-xl md:text-2xl text-gray-600 mb-6 animate-fade-in">
+        <p className="text-xl md:text-2xl text-gray-300 mb-6 animate-fade-in">
           Full Stack Software Developer & AI Enthusiast
         </p>
         
-        <p className="text-lg text-gray-500 mb-8 max-w-2xl mx-auto animate-fade-in">
+        <p className="text-lg text-gray-400 mb-8 max-w-2xl mx-auto animate-fade-in">
           Goal Oriented Graduate looking for a Challenging role in an organization where I can Upgrade and Utilize my Inter personal skills that can Contribute to Company's Growth as well.
         </p>
         
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8 text-gray-600 animate-fade-in">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8 text-gray-300 animate-fade-in">
           <div className="flex items-center gap-2">
             <MapPin className="w-5 h-5" />
-            <span>Warangal, Telangana</span>
+            <span>Janagaon, Telangana</span>
           </div>
           <div className="flex items-center gap-2">
             <Phone className="w-5 h-5" />
