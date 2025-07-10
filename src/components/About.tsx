@@ -15,7 +15,7 @@ const About = () => {
           </CardHeader>
           <CardContent>
             <p className="text-lg text-gray-300 text-center leading-relaxed">
-              Bhai Bolthe... 
+              As a Full Stack Developer at NxtWave, I combine my technical expertise with a passion for mentoring, helping aspiring developers navigate the world of modern web development and AI technologies. 
             </p>
           </CardContent>
         </Card>
@@ -26,7 +26,7 @@ const About = () => {
               <CardTitle className="text-xl text-gray-100">Contact Information</CardTitle>
             </CardHeader>
             <CardContent className="space-y-3">
-              <p className="text-gray-300"><strong>Address:</strong> Hno:16-1-50/1 kareemabad, Janagaon, Telangana</p>
+              <p className="text-gray-300"><strong>Address:</strong> Janagaon, Telangana</p>
               <p className="text-gray-300"><strong>Phone:</strong> +91 9908076536</p>
               <p className="text-gray-300"><strong>Email:</strong> praveenmudhiraj516@gmail.com</p>
             </CardContent>
