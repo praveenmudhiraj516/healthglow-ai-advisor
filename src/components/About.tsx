@@ -15,7 +15,7 @@ const About = () => {
           </CardHeader>
           <CardContent>
             <p className="text-lg text-gray-300 text-center leading-relaxed">
-              Bhai Bolthe 
+              Bhai Bolthe... 
             </p>
           </CardContent>
         </Card>
