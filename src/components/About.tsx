@@ -15,10 +15,7 @@ const About = () => {
           </CardHeader>
           <CardContent>
             <p className="text-lg text-gray-300 text-center leading-relaxed">
-              Goal Oriented Graduate looking for a Challenging role in an organization where I can 
-              Upgrade and Utilize my Inter personal skills that can Contribute to Company's Growth as well.
-              Currently working as a Full Stack Software Developer (SDM) at NxtWave, where I mentor and 
-              support learners in building web applications using modern frontend and backend technologies.
+              Bhai Bolthe 
             </p>
           </CardContent>
         </Card>
